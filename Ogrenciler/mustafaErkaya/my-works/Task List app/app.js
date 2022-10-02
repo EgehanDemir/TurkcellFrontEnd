@@ -58,7 +58,7 @@ function deleteItem(e) {
   }  // silme onayı
   
 
-  e.preventDefault();
+  e.preventDefault();  // a etiketi olduğu için sayfayı yenilemesini istemiyoruz (scroll fixed)
 }
 
 // delete all items
