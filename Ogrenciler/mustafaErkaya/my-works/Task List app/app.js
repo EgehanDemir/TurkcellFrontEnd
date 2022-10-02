@@ -5,12 +5,13 @@ const input = document.querySelector("#txtTaskName");
 const btnDeleteAll = document.querySelector("#btnDeleteAll");
 const taskList = document.querySelector("#task-list");
 
-
+// call event listeners
 eventListeners();
 function eventListeners(){
+    // submit event
     form.addEventListener("submit",addNewItem);
 }
-
+//add new item
 function addNewItem(e){
 
     if(input.value ===""){
