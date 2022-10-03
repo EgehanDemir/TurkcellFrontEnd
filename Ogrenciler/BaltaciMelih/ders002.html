@@ -70,25 +70,55 @@
       allowfullscreen
     ></iframe>
     <iframe src="https://reactjs.org/" frameborder="0"></iframe> -->
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-      dolorum totam laborum, atque debitis, culpa tempore impedit dignissimos
-      deserunt voluptatem, quis mollitia perspiciatis ad vero tenetur
-      perferendis earum nobis doloremque.
+    <!-- <p>
+      Lorem ipsum dolor sit amet <b>consectetur adipisicing elit</b>.
+      Accusantium dolorum totam laborum, <strong>atque debitis</strong>, culpa
+      tempore impedit dignissimos deserunt voluptatem, quis mollitia
+      perspiciatis ad vero tenetur perferendis earum nobis doloremque.
     </p>
     <hr width="70%" size="10" noshade />
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-      dolorum totam laborum, atque debitis, culpa tempore impedit dignissimos
-      deserunt voluptatem, quis mollitia perspiciatis ad vero tenetur
-      perferendis earum nobis doloremque.
+      Lorem ipsum dolor sit amet <em>consectetur adipisicing elit</em>.
+      Accusantium dolorum totam laborum, <i>atque debitis</i>, culpa tempore
+      impedit dignissimos deserunt voluptatem, quis mollitia perspiciatis ad
+      vero tenetur perferendis earum nobis doloremque.
     </p>
     <br />
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-      dolorum totam laborum, atque debitis, culpa tempore impedit dignissimos
-      deserunt voluptatem, quis mollitia perspiciatis ad vero tenetur
-      perferendis earum nobis doloremque.
-    </p>
+      Lorem ipsum dolor sit <u>amet consectetur adipisicing elit</u>.
+      Accusantium dolorum totam laborum, atque debitis, culpa tempore impedit
+      dignissimos deserunt voluptatem, quis mollitia perspiciatis ad vero
+      tenetur perferendis earum nobis doloremque.
+    </p> -->
+    <form action="">
+      <label for="name">Adınızı Giriniz</label>
+      <input type="text" id="name" placeholder="İsim" /><br /><br />
+      <label for="password">Parolanizi Giriniz </label>
+      <input type="password" id="password" placeholder="Şifre" /><br /><br />
+      <label for="email">E-mail Giriniz</label>
+      <input type="text" id="email" placeholder="Mail" /><br /><br /><br />
+
+      <label>Cinsiyet</label><br /><br />
+      <label for="erkek">Erkek</label>
+      <input type="radio" id="erkek" name="cinsiyet" />
+      <label for="kadın">Kadın</label>
+      <input type="radio" id="kadın" name="cinsiyet" />
+      <br /><br />
+      <label>Hobiler</label><br /><br />
+      <label for="music">Müzik</label>
+      <input type="checkbox" name="hobies" id="music" />
+      <label for="book">Kitap okumak</label>
+      <input type="checkbox" name="hobies" id="book" />
+      <br /><br />
+      <label for="cars">Marka Seç</label>
+      <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+        <option value="bugatti">Bugatti</option>
+        <option value="mercedes">Mercedes</option>
+      </select>
+      <input type="submit" id="Gönder" />
+      <button type="submit">Gönder</button>
+    </form>
   </body>
 </html>
