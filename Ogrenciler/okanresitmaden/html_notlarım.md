@@ -4,9 +4,11 @@ HTML elementi başlangıç ve bitiş etiketleri arasında içeriğin yazılması
 ##### < etiketismi > içerik < /etiketismi >
 
 #### Etiketler ve yazım biçimi
-##### < h1 > : Başlık.    < /h1 >
+##### < h1 > : Başlık.    < /h1 > [//]: # (h2 h3 h4 h5 h6) 
 ##### < p >  : Paragraf.  < /p > 
-##### < br > : Boşluk     none
+##### < br > : Boşluk.     none
+
+[buradan](https://www.w3schools.com/tags/default.asp) diğer etiketler ve işlevlerine de ulaşabilirsiniz.
 
 HTML yazım formatı;
 
@@ -14,3 +16,5 @@ HTML yazım formatı;
 
 Beyaz kısım web tarayıcısında görünen kısmı oluşturur.
 HTML büyük küçük harfe duyarlı değildir (not case sensitive). Bu sebeple <P> ile <p> aynı anlama gelmektedir. Ancak genellikle küçük harf şeklinde kullanılmaktadır.
+
+#### < !-- -- > : Yorum satırı yandaki format ile oluşturulur.
