@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hafta-2 Ders-2</title>
 </head>
 <body>
     <br>
@@ -18,9 +18,56 @@
     <br>
     <p>Lorem <u>ipsum dolor sit</u> amet consectetur adipisicing elit. Culpa dolorum id assumenda earum quasi consequuntur iure inventore tenetur, tempora consequatur, placeat repellendus nam quo exercitationem veniam maxime? Ullam, expedita numquam.</p>
 
-    <label>Name</label>
-    <input type="text">
-    <label>password</label>
-    <input type="password">
+    <form action="submit" style="width:20%; display: flex; flex-direction: column;">
+        <label>Name</label>
+        <input type="text" placeholder="name...">
+        <br>
+        
+        <label>Password</label>
+        <input type="password" placeholder="password...">
+        <br>
+        <label>Email</label>
+        <input type="email" placeholder="email...">
+        <br>
+        <button type="submit">Submit</button>
+        <br><br>
+        
+       <div style="display:flex; flex-direction:column; align-items:center" >
+            <label> Cinsiyet</label>
+            <div>
+                <label for="erkek">erkek</label>
+                <input type="radio" id="erkek" >
+                <label for="kadın">kadın</label>
+                <input type="radio" id="kadın" >
+            </div>
+       </div>
+        <br>
+
+        <div style="display:flex; flex-direction:column; align-items:center">
+            <label>Hobiler</label>
+            <div>
+                <label for="music">müzik</label>
+                <input type="checkbox" id="music" name="hobies"/>
+                <label for="reading">kitap</label>
+                <input type="checkbox" id="reading" name="hobies"/>
+                <label for="dancing">dans</label>
+                <input type="checkbox" id="dancing" name="hobies"/>
+                <br><br>
+            </div>
+        </div>
+
+        <div style="display:flex; flex-direction:column; align-items:center">
+            <label for="cars">Marka seçin</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="audi">Audi</option>
+                <option value="bmw">Bmw</option>
+                <option value="bugatti">Bugatti</option>
+                <option value="mercedes">Mercedes</option>Bugatti</option>
+            </select>
+        </div>
+    </form>
+
+
 </body>
 </html>
