@@ -1,15 +1,18 @@
-body{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    
     background-image: url(image/image1.jpg) ;
     background-size: cover;
     
     
 }
 ul{
-    margin: 0;
-    padding: 0;
+    
     border: none;
 }
 
@@ -78,7 +81,7 @@ h1:hover{
     border-bottom: 1px solid #5b5757;
     background-color: #f7f2f2;
     padding: 10px 15px;
-    height: 30px;
+    
 }
 
 .container .card .card-body{
