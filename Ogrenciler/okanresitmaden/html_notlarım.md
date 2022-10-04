@@ -20,21 +20,29 @@ HTML büyük küçük harfe duyarlı değildir (not case sensitive). Bu sebeple 
 #### < !-- -- > : Yorum satırı yandaki format ile oluşturulur.
 #### < tagname style="property:value" > ile html elementinin stili ayarlanabilir. Buradaki "property" CSS özelliğidir.
 
-`<body style="background-color:powederblue"> 
+`< body style="background-color:powederblue"> 
 yukarıdaki kod parçacığı ile arkaplan rengini ayarlayabiliriz. Bu yapıyı paragraflar ve başlıklar için de kullanabiliriz.
-style özelliği altında metin boyutu,rengi gibi bir sürü özellik mevcut.
+style özelliği altında metin boyutu,rengi gibi bir sürü özellik mevcut.< /body >
 
 #### Metin dosyalarının görünüşünü değiştirmek.
-< b > - Bold text
-< strong > - Important text
-< i > - Italic text
-< em > - Emphasized text
-< mark > - Marked text
-< small > - Smaller text
-< del > - Deleted text
-< ins > - Inserted text
-< sub > - Subscript text
-< sup > - Superscript text
+#### < b > - Bold text
+
+#### < strong > - Important text
+
+#### < i > - Italic text
+
+#### < em > - Emphasized text
+
+#### < mark > - Marked text
+
+#### < small > - Smaller text
+
+#### < del > - Deleted text
+
+#### < ins > - Inserted text
+
+#### < sub > - Subscript text
+
+#### < sup > - Superscript text
 
 
-</body>
