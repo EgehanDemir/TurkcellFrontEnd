@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body {
+    font-size: 1.4rem;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    width: 400px;
+    border-radius: 0.5rem;
+    position: absolute; /* konumlanıdırma için -- marginde kullanabiliriz flex yapasıda */
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}   
+
+.calculator .calculator-input {
+    width: 100%;
+    font-size: 4rem;
+    height: 7rem;
+    border: none;
+    background-color: #222121;
+    color: #fff;
+    text-align: right;
+    padding: 1.5rem;
+}
+
+button {
+    height: 50px;
+    background-color: #fff;
+    border-radius: .3rem;
+    border: 1px solid #c4c4c4;
+    font-size: 2.5rem;
+    color: #2d2c2c
+    
+}
+
+button:hover {
+    background-color: #e9e3e3;
+}
+
+.operator {
+    color: #2d84be;
+}
+
+.clear {
+    background-color: #c0345599;
+    color: #fff;
+    border-color: #b0353a;
+}
+
+.clear:hover {
+    
+}
+
+.calculator-keys {
+    display: grid; /* grid row and col line */
+  /*  grid-template-columns: repeat(4 , 25%); /* kolonlara göre sıralama belirtme */
+    /* -- her satırda 4 eleman ve her biri 25% yer kaplayacak */
+    grid-template-columns: repeat(4 , 1fr); /* alttaki boşluğuda dahil edersen fr kullanmamız daha iyi olur. */
+    grid-gap: 20px; /* elemanlara arası boşluk*/
+    padding: 2rem;
+
+}

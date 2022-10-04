@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Form Deneme</title>
+</head>
+<body>
+    <table border="3px">
+    <thead>
+        <tr>
+           <th>KİŞİSEL</th>
+           <th>İLETİŞİM FORMU</th>
+        </tr>
+    </thead>
+    <tbody>
+        <form>
+            <tr>
+            <td><label for="name">Ad :</label></th>
+            <td><input type="text" id="name" placeholder="Ad" name="name"></td>
+            </tr>
+
+            <tr>
+            <td><label for="surname">Soyad :</label></th>
+            <td><input type="text" id="surname" placeholder="Soyad" name="surname"></td>
+            </tr>
+
+            <tr>
+            <td><label for="phone">Telefon :</label></td>
+            <td><input type="text" id="phone" placeholder="Telefon" name="phone"></td>
+            </tr>
+
+            <tr>
+            <td><label for="email">Email :</label></td>
+            <td><input type="text" id="email" placeholder="Mail Adresi" name="email"></td>
+            </tr>
+
+            <tr>
+            <td><label >Cinsiyet:</label></td>
+            <td><label for="erkek">Erkek</label>
+            <input type="radio" id="erkek" name="cinsiyet">
+            <label for="kadin">Kadın</label>
+            <input type="radio" id="kadin" name="cinsiyet"></td>
+            </tr>
+
+            <tr>
+            <td><label for="Hobiler">Hobileriniz:</label></td>
+            <td><label for="music">Müzik</label>
+            <input type="checkbox" id="music" name="hobiler">
+            <label for="book">Kitap Okumak</label>
+            <input type="checkbox" id="book" name="hobiler"></td>
+            </tr>
+
+            <tr>
+            <td><label for="language">Seçilecek Dil:</label></td>
+            <td><select name="language" id="language">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JAVASCRİPT</option>
+            </select></td>
+            </tr>
+
+            <tr>
+            <td><label for="kendi">Kendinizi Bir Cümle İle Anlatınız :</label></td>
+            <td><textarea name="kendi" id="kendi" cols="25" rows="10"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Bilgileri Gönder.</td>
+                <td><button type="submit">Gönder</button></td>
+            </tr>
+        </form>
+    </tbody>
+    </table>
+</body>
+</html>
