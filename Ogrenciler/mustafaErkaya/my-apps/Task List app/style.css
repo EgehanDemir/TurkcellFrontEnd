@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(image/image1.jpg) ;
+    background-size: cover;
+    
+    
+}
+ul{
+    
+    border: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+#header {
+    font-size: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 50px;
+}
+
+h1 {
+    width: 200px;
+    margin: 10px auto;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #fff;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    transition: all 1s;
+}
+
+h1:hover{
+    background-color: rgb(179, 66, 72);
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border: #fff;
+}
+
+
+
+#btnAddNewTask {
+    background-color: rgba(13, 122, 180, 0.955);
+}
+
+
+/* NEW TASK */
+
+
+.container .card {
+    border: 1px solid #5b5757;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+
+
+
+.container .card .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #5b5757;
+    background-color: #f7f2f2;
+    padding: 10px 15px;
+    
+}
+
+.container .card .card-body{
+    padding: 40px 20px 20px 20px ;
+}
+
+#addTaskForm .input-group{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    
+    position: relative;
+    
+}
+
+#addTaskForm .input-group .form-control {
+    width: 100%;
+    
+}
+
+#addTaskForm .input-group .form-control:focus{
+    background-color: rgba(245, 245, 88, 0.988);
+}
+
+#addTaskForm .input-group .right {
+    border-bottom: 1px solid #5b5757;
+}
+
+
+#addTaskForm .input-group .right i {
+    color: #fff;
+}
+
+
+/*! task list */
+
+.container .card-task .card-header {
+    border: none;
+}
+
+.card .list-group li{
+    display: flex;
+    
+    justify-content: space-between;
+    border-top: 1px solid #5b5757;
+    background-color: #c7c2c2;
+    padding: 15px 25px 15px 15px ;
+    
+}
+
+.card .list-group li.special {
+    background-color: rgb(216, 139, 139);
+}
+
+.card .card-header .delete-all {
+    color: red;
+    border: 1px solid red;
+    border-radius: 3px ;
+    padding: 5px;
+}
+
+#task-list .list-group-item .delete-item .fa-times {
+    color: white;
+}
+
