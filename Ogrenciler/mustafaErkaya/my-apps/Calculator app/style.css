@@ -51,13 +51,26 @@ button:hover {
 }
 
 .clear {
-    background-color: #c0345599;
+    background-color:#b0353a;
     color: #fff;
-    border-color: #b0353a;
+    border-color: #c0345599;;
 }
 
 .clear:hover {
-    
+    background-color: #f2767a;
+}
+
+.equal {
+    background-color: #2e86c0;
+    border-color: #368fc9;
+    color: #fff;
+    height: 100%;
+    grid-area: 2/4/6/4; /* 2. row 4. col 'dan başla dedik -- konumumnu başlangıç ve bitiş ile ayarlama */
+    /*bitiş ayarlanırken 6. satır 4. sutun dedik ama 6. satırı dahil etmez.*/
+}
+
+.equal:hover {
+    background-color: #52a5dd;
 }
 
 .calculator-keys {
