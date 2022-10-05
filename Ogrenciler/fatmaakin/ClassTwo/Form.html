@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yapısal html etiketleri ve form elementleri</title>
+  </head>
+  <body>
+    <!-- <p>
+      Lorem ipsum dolor sit amet <em>consectetur adipisicing elit</em>.
+      Perspiciatis fugit sed <i>aut adipisci officiis rerum sint</i>. Impedit
+      aut atque aperiam ex! Doloremque quae sapiente fugit illum laborum
+      doloribus unde officia!
+    </p>
+    <hr width="70%" size="10" noshade />
+    <p>
+      Lorem ipsum dolor sit <u>amet consectetur adipisicing elit</u>.
+      Perspiciatis fugit sed aut adipisci officiis rerum sint. Impedit aut atque
+      aperiam ex! Doloremque quae sapiente fugit illum laborum doloribus unde
+      officia!
+    </p>
+    <br /><br /><br /><br />
+    <p>
+      Lorem ipsum <b>dolor sit amet consectetur</b> adipisicing elit.
+      Perspiciatis fugit sed aut adipisci officiis rerum sint. Impedit aut atque
+      aperiam ex! <strong>Doloremque quae sapiente fugit</strong> illum laborum
+      doloribus unde officia!
+    </p> -->
+    <form>
+      <label for="name">Adınızı Giriniz</label><br />
+      <input type="text" id="name" placeholder="İsim" name="name" /><br /><br />
+      <label for="password">Parolanızı Giriniz</label><br />
+      <input
+        type="text"
+        id="password"
+        placeholder="Şifre"
+        name="password"
+      /><br /><br />
+      <label for="email">E-mail Giriniz</label><br />
+      <input
+        type="text"
+        id="email"
+        placeholder="Mail"
+        name="email"
+      /><br /><br />
+      <label>Cinsiyet</label> <br /><br />
+      <label for="erkek">Erkek</label>
+      <input type="radio" id="erkek" name="cinsiyet" />
+      <label for="kadin">Kadın</label>
+      <input type="radio" id="kadin" name="cinsiyet" /><br /><br />
+      <label>Hobiler</label> <br /><br />
+      <label for="music">Müzik</label>
+      <input type="checkbox" id="music" name="hobies" />
+      <label for="book">Kitap Okumak</label>
+      <input type="checkbox" id="book" name="hobies" /><br /><br />
+      <label for="cars">Marka Seç</label>
+      <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+        <option value="bugatti">Bugatti</option>
+        <option value="mercedes">Mercedes</option>
+      </select>
+      <!-- <input type="submit" value="Gönder" /> -->
+      <button type="submit">Gönder</button>
+    </form>
+  </body>
+</html>
+
+
+<!--
+Bağlantılar
+  https://developer.mozilla.org/en-US/ - JS için Mozilla dökümanları
+https://www.w3schools.com - Html, Css, JS için temel dökümantasyon
+https://code.visualstudio.com/ - VsCode indirme linki
+https://desktop.github.com/ - Github for Desktop uygulaması
+https://github.com - Github
+https://github.com/waroi/BTAkademiFrontEnd - Bizim proje
+https://caniuse.com/ - bir özelliğin hangi tarayıcılarda desteklendiğini gösterir  
+
+
+İsimlendirme
+# Pascal Case
+UserName
+
+# Camel Case
+userName
+
+# Snake Case
+user_name
+
+# Kebap Case
+user-name
+-->
