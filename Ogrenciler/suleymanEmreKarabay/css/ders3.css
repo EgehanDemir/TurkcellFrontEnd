@@ -11,3 +11,18 @@ div .paragraf{
     font-weight: bold;
     background-color: rgb(84, 75, 15);
 }
+
+.bgColorYellow{
+    background-color: yellow;
+}
+.bgColorRed{
+    background-color: red;
+}
+.witdh50{
+    width: 50%;
+}
+.marginXAuto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
