@@ -1,0 +1,13 @@
+.paragraf{
+    color: black;
+    text-align: left;
+
+}
+#okul{
+    background-color: brown;
+}
+
+div .paragraf{
+    font-weight: bold;
+    background-color: rgb(84, 75, 15);
+}
