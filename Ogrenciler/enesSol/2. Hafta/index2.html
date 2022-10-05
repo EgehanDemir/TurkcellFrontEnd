@@ -29,26 +29,49 @@
     </p> -->
 
     <!-- INPUTS -->
-    <label for="name">Adınızı Giriniz</label><br />
-    <input type="text" id="name" placeholder="İsim" /><br /><br />
-    <label for="password">Parolanızı Giriniz</label><br />
-    <input type="password" id="password" placeholder="Şifre" /><br /><br />
-    <label for="email">E-mail adresinizi girin</label><br />
-    <input type="text" id="email" placeholder="Mail" /><br /><br />
+    <form>
+      <label for="name">Adınızı Giriniz</label><br />
+      <input type="text" id="name" placeholder="İsim" name="name" /><br /><br />
+      <label for="password">Parolanızı Giriniz</label><br />
+      <input
+        type="password"
+        id="password"
+        placeholder="Şifre"
+        name="password"
+      /><br /><br />
+      <label for="email">E-mail adresinizi girin</label><br />
+      <input
+        type="text"
+        id="email"
+        placeholder="Mail"
+        name="email"
+      /><br /><br />
 
-    <label>Cinsiyet</label><br /><br />
-    <label for="erkek">Erkek</label>
-    <input type="radio" id="erkek" name="cinsiyet" />
+      <label>Cinsiyet</label><br /><br />
+      <label for="erkek">Erkek</label>
+      <input type="radio" id="erkek" name="cinsiyet" />
 
-    <label for="kadin">Kadın</label>
-    <input type="radio" id="kadin" name="cinsiyet" /><br /><br />
+      <label for="kadin">Kadın</label>
+      <input type="radio" id="kadin" name="cinsiyet" /><br /><br />
 
-    <label>Hobiler</label><br /><br />
-    <label for="football">Futbol</label>
-    <input type="checkbox" id="football" name="hobies" />
+      <label>Hobiler</label><br /><br />
+      <label for="football">Futbol</label>
+      <input type="checkbox" id="football" name="hobies" />
 
-    <label for="chess">Satranç</label>
-    <input type="checkbox" id="chess" name="hobies" />
+      <label for="chess">Satranç</label>
+      <input type="checkbox" id="chess" name="hobies" /><br /><br />
+
+      <!-- SELECT YAPISI -->
+      <label for="cars">Marka Seç</label>
+      <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+        <option value="tesla">Tesla</option>
+        <option value="bugatti">Bugatti</option>
+      </select>
+      <!-- <input type="submit" value="Gönder!" /> -->
+      <button type="submit">Gönder!</button>
+    </form>
     <!-- Look for more input types -->
   </body>
 </html>
