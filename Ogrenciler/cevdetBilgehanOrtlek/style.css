@@ -1,0 +1,15 @@
+.paragraf{
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+
+}
+div.colorBlue{
+    color: blue;
+}
+.colorParagraf1{
+    color: #EF7513;
+}
+.colorParagraf2{
+    color: rgba(239, 117,19, 0.94)
+}
