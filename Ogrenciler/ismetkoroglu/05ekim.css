@@ -1,0 +1,18 @@
+
+        .paragraf {
+            font-size: 20px;
+            font-weight: 700;
+            color: brown;
+        }
+        #divid {
+            color: blue;
+        }
+   
+        .colorParagraf {
+            color: rgb(219, 117,25);
+        }
+        .colorParagraf2 {
+            color: rgba(219, 117,25,0.94);
+        }
+
+        
