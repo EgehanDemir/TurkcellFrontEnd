@@ -1,17 +1,62 @@
- .prg {
+ .paragraf {
      font-size: 30px;
      font-weight: bolder;
      color: brown;
  }
 
- #ddiv {
+ div .textColorBlıe {
      color: blue;
  }
 
- .paragrafA{
+ .colorParagraf1{
     color: #4B18C9;
  }
 
- .paragrafB{
+ .colorParagraf2{
     color: rgba(253, 202, 119, 0.99);
  }
+ .font-20{
+    font-size: 20px;
+ }
+ .with100{
+    width: 100%;
+ }
+ .colorGreen{
+    background-color: green;
+ }
+ .colorPink{
+    background-color: pink;
+ }
+ .with50{
+    width: 50%;
+ }
+
+ .marginXAuto{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .box{
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+ }
+ .red{
+    background-color: red;
+    margin-left: 50px;
+ }
+ .blue{
+    background-color: blue;
+    margin-bottom: 10px;
+ }
+ .green{
+    background-color: green;
+    margin-top: 20px;
+ }
+ .bgImage{
+    background-image: url("");
+ }
+    
+
+ 
+
+
