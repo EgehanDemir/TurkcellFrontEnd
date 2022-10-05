@@ -69,8 +69,8 @@
 
     <iframe src="https://www.google.com.tr/?hl=tr" frameborder="0" width="500" height="500"></iframe>
 
-    <video src="" controls autoplay loop mute></video>
-    <audio src=""></audio>
+    <video src="video.mp4" controls autoplay loop muted></video>
+    <audio src="video.mp4" controls autoplay loop muted></audio>
 
     <p>
         Lorem ipsum dolor sit amet <em>Bu italik.</em> asdhnashfias
@@ -85,6 +85,32 @@
     <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, omnis!
     </p>
-</body>
 
+    <label for="name">Adınız</label><br />
+    <input type="text" id="name" placeholder="Ad" /><br /><br />
+    <label for="surname">Soyadınız</label><br />
+    <input type="text" id="surname" placeholder="Soyad" /><br /><br />
+    <label for="pass">Parola</label><br />
+    <input type="password" id="pass" placeholder="Şifre" /><br /><br />
+    <label for="mail">Mail</label><br />
+    <input type="email" id="mail" placeholder="Mail" /><br /><br />
+    <label for="">Cinsiyet</label><br />
+    <label for="erkek">Erkek</label>
+    <input type="radio" id="erkek" name="cins" />
+    <label for="kız">Kız</label>
+    <input type="radio" id="kız" name="cins" /><br /><br />
+    <label for="">Hobiler</label><br />
+    <label for="kitap">Kitap Okumak</label>
+    <input type="checkbox" id="kitap" name="hobi" />
+    <label for="yürüyüş">Yürüyüş Yapmak</label>
+    <input type="checkbox" id="yürüyüş" name="hobi" /><br /><br />
+    <label for="renk">Renk seçiniz.</label><br />
+    <select name="" id="renk">
+      <option value="">Bordo</option>
+      <option value="">Mavi</option></select
+    ><br /><br />
+    <label for="yorum">Yorumlarınız</label><br />
+    <textarea name="" id="yorum" cols="30" rows="10"></textarea><br /><br />
+    <button type="submit">Gönder</button>
+  </body>
 </html>
